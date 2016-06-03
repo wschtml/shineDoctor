@@ -1,0 +1,454 @@
+.m-index{
+    width:100%;
+    height:100%;
+    @include flexbox();
+    @include flex-direction(column);//纵向排列
+    & > *{
+        width:100%;
+    }
+    header{
+        height:.44rem;
+        background-color:#76D8FB;
+        @include flexbox();
+        b{
+            @include flex();
+            width:100%;
+            height:100%;
+            text-align:center;
+            line-height:.44rem;
+            color:#fff;
+            font-size:16px;
+            
+        }
+    }
+    section{
+        @include flex();
+        //@include flexbox();
+        @include flex-direction(column);
+        width:100%;
+        background-color:blue!important;
+        overflow:hidden;
+        .swiper1{
+            width:100%;
+            height:2rem;
+            background:red;
+            .swi-slide1{
+                width:100%;
+                height:100%;
+                img{
+                   width:100%;
+                   height:100%; 
+                }
+            }
+        }
+        article{
+            width:100%;
+            height:2.7rem;
+            margin-top:.25rem;
+            background:cyan;
+            ul{
+                width:100%;
+                height:100%;
+                @include flexbox();
+                li{
+                    @include flex();
+                    @include flexbox();
+                    @include flex-direction(column);
+                    @include align-items(center);
+//                  @include justify-content(center);
+                    
+                    b{
+                        width:1.4rem;
+                        height:1.4rem;
+                        line-height:2rem;
+                    }
+                    i,p{
+                        width:100%;
+                        height:0.16rem;
+                        text-align:center;
+                         line-height:1rem;
+                        
+                    }
+                    &:nth-child(1) i{
+                        color:#AAE385;
+                        margin-bottom:0.05rem;
+                    };
+                    &:nth-child(2) i{
+                        color:#76D8FB;
+                        margin-bottom:0.05rem;
+                    };
+                }
+                .art-list{
+                    @include border(0 1px 0 0,#E8E8E8)
+                }
+            }
+        }
+        nav{
+            width:100%;
+            height:1.8rem;
+            background:pink;
+            ul{
+                @include flexbox();
+                width:100%;
+                height:100%;
+                li{
+                    @include flex();
+                    @include flexbox();
+                    @include flex-direction(column);
+                    @include align-items(center);
+                    @include justify-content(center);
+                    height:100%;
+                    line-height:.4rem;
+                    b{
+                        width:.8rem;
+                        height:.8rem;
+                        margin-bottom:.1rem;
+                        img{
+                            width:100%;
+                            height:100%;
+                        }
+                    }
+                }
+            }
+        }
+        .message{
+            width:100%;
+            height:2.24rem;
+            @include border(1px 0 1px 0,#E7E7E7)
+            margin-top:.25rem;
+            padding-top:10%;
+            padding-left:3%;
+            background:#F6F6F6;
+            .swiper2-container{
+                width:94%;
+                height:80%;
+                background:#fff;
+                @include border(1px,#E7E7E7)
+                border-radius:.1rem;
+                 .swiper2{
+                     .swi-slide2{
+                        @include flexbox();
+                        width:100%;
+                        height:100%;
+                        article{
+                            width:.8rem;
+                            height:.8rem;
+                            border:1px solid #31C6DB;
+                            border-radius:.5rem;
+                        }
+                        .swi-arc1{
+                            background:url(/shineDoctor/images/indexImage/pic_man.png) center no-repeat;
+                            background-size:cover;
+                        }
+                        .swi-arc2{
+                            background:url(/shineDoctor/images/indexImage/ico_set.png) center no-repeat;
+                            background-size:cover;
+                        }
+                        .swi-arc3{
+                            background:url(/shineDoctor/images/indexImage/pic_woman.png) center no-repeat;
+                            background-size:cover;
+                        }
+                        .swi-arc4{
+                            background:url(/shineDoctor/images/indexImage/ico_set.png) center no-repeat;
+                            background-size:cover;
+                        }
+                        .swi-arc5{
+                            background:url(/shineDoctor/images/indexImage/pic_man.png) center no-repeat;
+                            background-size:cover;
+                        }
+                        .swi-arc6{
+                            background:url(/shineDoctor/images/indexImage/pic_woman.png) center no-repeat;
+                            background-size:cover;
+                        }
+                        p{
+                            @include flexbox();
+                            @include flex-direction(column);
+                            width:2.7rem;
+                            height:1.15rem;
+                            margin-top:.3rem;
+                            font-size:14px;
+                            i{
+                                width:90%;
+                                height:.33rem;
+                                line-height:.33rem;
+                                text-indent:5%;
+                            }
+                            b{
+                                width:90%;
+                                height:.6rem;
+                                line-height:.3rem;
+                                text-indent:5%;
+                            }
+                            .date{
+                                width:90%;
+                                height:.23rem;
+                                line-height:.23rem;
+                                text-align:right;
+                            }
+                        }
+                     }
+                    
+                }
+            }
+           
+        }
+        .search{
+            width:100%;
+            height:.83rem;
+            background:#D2F1BB;
+            @include flexbox();
+            .search-box{
+                width:78%;
+                height:66%;
+                background:#FCFCFC url(/shineDoctor/images/indexImage/ico_eat.png) .2rem center no-repeat;
+                margin-left:4%;
+                margin-top:3%;
+                border-radius:.25rem;
+                line-height:.58rem;
+                text-indent:.52rem;
+                font-size:.15rem;
+            }
+            .search-text{
+                width:13%;
+                height:66%;
+                margin-top:3%;
+                text-align:right;
+                line-height:.58rem;
+            }
+        }
+        .server-info{
+            width:100%;
+            height:4.08rem;
+            background:#fff;
+            ul{
+                width:100%;
+                height:100%;
+                @include flexbox();
+                @include flex-direction(column);
+                li{
+                    @include flexbox();
+                    @include border(0 0 1px 0,#E7E7E7)
+                    width:100%;
+                    height:33%;
+                    div{
+                        @include flexbox();
+                        @include flex-direction(column);
+                        //@include align-items(center);
+                        width:2.6rem;
+                        height:.90rem;
+                        margin-top:.23rem;
+                        background:#fff url(/shineDoctor/images/indexImage/bg_blue.png) 0.04rem center no-repeat;
+                        p,i{
+                            width:70%;
+                            height:50%;
+                            margin-left:10%;
+                            overflow:hidden;
+                            white-space:nowrap;
+                            text-overflow:ellipsis;
+                        }
+                        p{
+                            color:#2CC3DA;
+                            font-size:12px;
+                        }
+                        i{
+                            font-size:14px;
+                        }
+                    }
+                    b{
+                        width:.9rem;
+                        height:.9rem;
+                        margin-top:.23rem;
+                        img{
+                            width:100%;
+                            height:100%;
+                        }
+                    }
+                }
+                .list2 div{
+                        background:#fff url(/shineDoctor/images/indexImage/bg_green.png) 0.04rem center no-repeat;
+                  }
+                 .list3 div{
+                        @include border(0,#fff)
+                        background:#fff url(/shineDoctor/images/indexImage/bg_yellow.png) 0.04rem center no-repeat;
+                  }
+            }
+            
+        }
+        .doctor{
+            width:100%;
+            height:3.2rem;
+            @include flexbox();
+            @include flex-direction(column);
+            p{
+                width:100%;
+                height:.81rem;
+                line-height:.81rem;
+                text-indent:.6rem;
+                font-size:15px;
+                margin-top:.22rem;
+                @include border(1px 0 0 0,#CED0D1);
+                @include border(0 0 1px 0,#CED0D1);
+                background:#fff url(/shineDoctor/images/indexImage/ico_recipes.png) .25rem center no-repeat;
+            }
+            .doctor-swiper{
+                //@include flex();
+                width:100%;
+                height:2.25rem;
+                background:#fff;
+                overflow: hidden;
+                .swiper3{
+                    width:100%;
+                    height:100%;
+                    background:#E5E5E5;
+                    .swi-slide3{
+                        i{
+                            width:100%;
+                            height:50%;
+                            img{
+                                width:100%;
+                            }
+                        }
+                        .doc-b1{
+                            width:100%;
+                            height:50%;
+                            @include flexbox();
+                            @include flex-direction(column);
+                            .doc-name{
+                                width:100%;
+                                height:.4rem;
+                                font-size:.18rem;
+                                text-align:center;
+                            }
+                            .doc-intro{
+                                width:100%;
+                                height:.3rem;
+                                font-size:.15rem;
+                                text-align:center;                                
+                            }
+                            .doc-sch{
+                                @include flex();
+                                width:70%;
+                                font-size:.15rem;
+                                text-indent:.15rem;
+                                overflow: hidden;
+                                white-space: nowrap;
+                                text-overflow: ellipsis;                                
+                            }
+                        }
+                    }
+                    
+                }
+            }
+            
+        }
+        .sick{
+            width:100%;
+            height:3.07rem;
+            background:yellow;
+            margin-top:.22rem;
+            @include border(1px 0 0 0,#CED0D1);
+            @include border(0 0 1px 0,#CED0D1);
+            .swiper4{
+                    width:100%;
+                    height:100%;
+                    background:#E5E5E5;
+                    .swi-slide4{
+                        i{
+                            width:100%;
+                            height:50%;
+                            img{
+                                width:100%;
+                            }
+                        }
+                        .sick-b1{
+                            width:100%;
+                            height:50%;
+                            @include flexbox();
+                            @include flex-direction(column);
+                            .sick-name{
+                                width:77%;
+                                height:.42rem;
+                                font-size:.18rem;
+                                line-height:.42rem;
+                                overflow: hidden;
+                                white-space: nowrap;
+                                text-overflow: ellipsis; 
+                            }
+                            .sick-pro{
+                                width:100%;
+                                height:.57rem;
+                                font-size:.15rem;
+                                color:#8E8E8D;
+                            }
+                            .sick-money{
+                                @include flex();
+                                width:70%;
+                                font-size:.15rem;
+                                color:#E5895B;
+                            }
+                        }
+                    }
+                    
+                }
+        }
+        .recipes{
+            width:100%;
+            height:4.7rem;
+            background:red;
+             p{
+                width:100%;
+                height:.81rem;
+                line-height:.81rem;
+                text-indent:.6rem;
+                font-size:15px;
+                margin-top:.22rem;
+                @include border(1px 0 0 0,#CED0D1);
+                @include border(0 0 1px 0,#CED0D1);
+                position:relative;
+                background:#fff url(/shineDoctor/images/indexImage/ico_recipes.png) .25rem center no-repeat;
+                img{
+                    margin-left:2.2rem;
+                }
+            }
+            .recipes-pic{
+                width:100%;
+                height:3.95rem;
+                background:yellow;
+            }
+        }
+    }
+    footer{
+        height:.44rem;
+        background-color:#FEFEFE;
+        ul{
+            width:100%;
+            height:100%;
+            @include flexbox();
+            li{
+                @include flex();
+                @include flexbox();
+                @include align-items(center);//水平居中
+                @include justify-content(center);//垂直居中
+                @include flex-direction(column);//纵向排列
+                height:100%;
+                i{
+                    font-size:24px;
+                    line-height:.26rem;
+                }
+                b{
+                    font-size:12px;
+                    line-height:.40rem;
+                }
+                &:nth-child(3) i{
+                    line-height:.28rem;
+                }
+                &:nth-child(3) b{
+                    line-height:.34rem;
+                }
+                &.active{
+                    color:#76D8FB;
+                }
+            }
+        }
+    }
+}

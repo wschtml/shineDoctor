@@ -1,2 +1,0 @@
-# shineDoctor
-my protect

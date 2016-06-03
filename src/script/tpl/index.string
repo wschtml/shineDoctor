@@ -1,0 +1,244 @@
+<div class="m-index">
+	<header>
+		<b>阳光医生</b>
+	</header>
+	<section spa-widget="scroll">
+		<div>
+			<div class="swiper-container swiper1">
+			    <div class="swiper-wrapper">
+			        <div class="swiper-slide swi-slide1">
+			        	<img src="/shineDoctor/images/indexImage/banner-image1.png"/>
+			        </div>
+			        <div class="swiper-slide swi-slide1">
+			        	<img src="/shineDoctor/images/indexImage/banner-image2.png"/>
+			        </div>
+			        <div class="swiper-slide swi-slide1">
+			        	<img src="/shineDoctor/images/indexImage/banner-image3.png"/>
+			        </div>
+			    </div>
+			    <!-- 如果需要分页器 -->
+			    <div class="swiper-pagination"></div>
+		    </div>
+		    <article>
+		    	<ul>
+		    		<li class = "art-list">
+		    			<b><img src = "/shineDoctor/images/indexImage/home_gene_icon.9.png"></b>
+		    			<i>基因检测</i>
+		    			<p>标准用药 精准预测</p>
+		    		</li>
+		    		<li>
+		    			<b><img src = "/shineDoctor/images/indexImage/home_doctor_icon.9.png"></b>
+		    			<i>预约名医</i>
+		    			<p>名医专家 在线预约</p>
+		    		</li>
+		    	</ul>
+		    </article>
+		    <nav>
+		    	<ul>
+		    		<li>
+		    			<b><img src = "/shineDoctor/images/indexImage/home.png"></b>
+		    			<i>医生医院</i>
+		    		</li>
+		    		<li>
+		    			<b><img src = "/shineDoctor/images/indexImage/btn_encyclopedias.png"></b>
+		    			<i>肿瘤百科</i>
+		    		</li>
+		    		<li>
+		    			<b><img src = "/shineDoctor/images/indexImage/btn_folk.png"></b>
+		    			<i>小偏方</i>
+		    		</li>
+		    		<li>
+		    			<b><img src = "/shineDoctor/images/indexImage/btn_eat.png"></b>
+		    			<i>饮食方案</i>
+		    		</li>
+		    	</ul>
+		    </nav>
+		    <div class = "message">
+		    	<div class="swiper2-container">
+			    	<div class="swiper-container swiper2">
+					    <div class="swiper-wrapper">
+					        <div class="swiper-slide swi-slide2">
+					        	<article class = "swi-arc1"></article>
+					        	<p>
+					        		<i>L:</i>
+					        		<b>妈妈今年52岁,最近牙龈红肿疼,怎么 </b>
+					        		<span class = "date">2月前</span>
+					        	</p>
+					        </div>
+					        <div class="swiper-slide swi-slide2">
+					        	<article class = "swi-arc2"></article>
+					        	<p>
+					        		<i>139****6355:</i>
+					        		<b>张三症状严重,2015年6月手术后,经 &nbsp;&nbsp;&nbsp;过8</b>
+					        		<span class = "date">2月前</span>
+					        	</p>
+					        </div>
+					        <div class="swiper-slide swi-slide2">
+					        	<article class = "swi-arc3"></article>
+					        	<p>
+					        		<i>157****4984:</i>
+					        		<b>哪里有做基因检测的?项目有哪些,多少钱</b>
+					        		<span class = "date">2月前</span>
+					        	</p>
+					        </div>
+					        <div class="swiper-slide swi-slide2">
+					        	<article class = "swi-arc4"></article>
+					        	<p>
+					        		<i>136****2841:</i>
+					        		<b>便秘,变胖是什么症状?</b>
+					        		<span class = "date">2月前</span>
+					        	</p>
+					        </div>
+					        <div class="swiper-slide swi-slide2">
+					        	<article class = "swi-arc5"></article>
+					        	<p>
+					        		<i>133****8734:</i>
+					        		<b>基因多态性检测有哪些方法?</b>
+					        		<span class = "date">2月前</span>
+					        	</p>
+					        </div>
+					        <div class="swiper-slide swi-slide2">
+					        	<article class = "swi-arc6"></article>
+					        	<p>
+					        		<i>135****2650:</i>
+					        		<b>经常无力匮乏,会影响病情的恢复?</b>
+					        		<span class = "date">2月前</span>
+					        	</p>
+					        </div>
+					    </div>
+					</div>
+		    	</div>
+		    </div>
+		    <div class = "search">
+		    	<div class = "search-box">吃什么好：甲鱼</div>
+		    	<div class = "search-text">搜索</div>
+		    </div>
+		    <div class = "server-info">
+		    	<ul>
+		    		<li>
+		    			<div>
+		    				<p>服务测评</p>
+		    				<i>NOW Foods elatoin 褪黑素保护肌肤</i>
+		    			</div>
+		    			<b><img src = "/shineDoctor/images/indexImage/img1.png"></b>
+		    		</li>
+		    		<li class = "list2">
+		    			<div>
+		    				<p>抗癌明星</p>
+		    				<i>抗癌女斗士：17年患4种癌症</i>
+		    			</div>
+		    			<b><img src = "/shineDoctor/images/indexImage/img2.png"></b>
+		    		</li>
+		    		<li class = "list3">
+		    			<div>
+		    				<p>名医访谈</p>
+		    				<i>养成良好的生活习惯 预防消化道产生疾病</i>
+		    			</div>
+		    			<b><img src = "/shineDoctor/images/indexImage/img3.png"></b>
+		    		</li>
+		    	</ul>
+		    </div>
+		    <div class = "doctor">
+		    	<p>名医专家</p>
+		    	<div class = "doctor-swiper">
+		    		<div class="swiper-container swiper3">
+					    <div class="swiper-wrapper">
+					        <div class="swiper-slide swi-slide3">
+					        	<i><img src="/shineDoctor/images/indexImage/doctor1.png"/></i>
+					        	<div class = "doc-b1">
+					        		<div class = "doc-name">王建伟</div>
+					        		<div class = "doc-intro">肿瘤外科</div>
+					        		<div class = "doc-sch">浙江大学肿瘤系毕业</div>
+					        	</div>
+					        </div>
+					        <div class="swiper-slide swi-slide3">
+					        	<i><img src="/shineDoctor/images/indexImage/doctor1.png"/></i>
+					        	<div class = "doc-b1">
+					        		<div class = "doc-name">蔡真</div>
+					        		<div class = "doc-intro">血液科</div>
+					        		<div class = "doc-sch">浙江大学肿瘤系毕业</div>
+					        	</div>
+					        </div>
+					        <div class="swiper-slide swi-slide3">
+					        	<i><img src="/shineDoctor/images/indexImage/doctor1.png"/></i>
+					        	<div class = "doc-b1">
+					        		<div class = "doc-name">王晓晨</div>
+					        		<div class = "doc-intro">肿瘤外科</div>
+					        		<div class = "doc-sch">浙江大学肿瘤系毕业</div>
+					        	</div>
+					        </div>
+					        <div class="swiper-slide swi-slide3">
+					        	<i><img src="/shineDoctor/images/indexImage/doctor1.png"/></i>
+					        	<div class = "doc-b1">
+					        		<div class = "doc-name">王晓勇</div>
+					        		<div class = "doc-intro">心胸外科</div>
+					        		<div class = "doc-sch">浙江省中肿瘤系毕业</div>
+					        	</div>
+					        </div>
+					    </div>
+					</div>
+		    	</div>
+		    </div>
+		    <div class = "sick">
+		    	<div class="swiper-container swiper4">
+				    <div class="swiper-wrapper">
+				        <div class="swiper-slide swi-slide4">
+				        	<i><img src="/shineDoctor/images/indexImage/sickImg.png"/></i>
+				        	<div class = "sick-b1">
+				        		<div class = "sick-name">女性常见高发癌jdfkjkfjdkf</div>
+				        		<div class = "sick-pro">包含项目：乳腺癌，宫颈癌，乳腺</div>
+				        		<div class = "sick-money">￥1180.00</div>
+				        	</div>
+				        </div>
+				        <div class="swiper-slide swi-slide4">
+				        	<i><img src="/shineDoctor/images/indexImage/sickImg.png"/></i>
+				        	<div class = "sick-b1">
+				        		<div class = "sick-name">女性常见高发癌jdfkjkfjdkf</div>
+				        		<div class = "sick-pro">包含项目：乳腺癌，宫颈癌，乳腺</div>
+				        		<div class = "sick-money">￥1180.00</div>
+				        	</div>
+				        </div>
+				        <div class="swiper-slide swi-slide4">
+				        	<i><img src="/shineDoctor/images/indexImage/sickImg.png"/></i>
+				        	<div class = "sick-b1">
+				        		<div class = "sick-name">女性常见高发癌jdfkjkfjdkf</div>
+				        		<div class = "sick-pro">包含项目：乳腺癌，宫颈癌，乳腺</div>
+				        		<div class = "sick-money">￥1180.00</div>
+				        	</div>
+				        </div>
+				    </div>
+				</div>
+		    </div>
+		    <div class = "recipes">
+		    	<p>
+		    		推荐菜谱
+		    		<img src = "/shineDoctor/images/indexImage/btn_more.png">
+		    	</p>
+		    	<div class = "recipes-pic">
+		    		<img src="/shineDoctor/images/indexImage/recipesImg.png"/>
+		    	</div>
+		    </div>
+		</div>
+		
+	</section>
+	<footer>
+		<ul>
+			<li class = "active">
+		        <i class="yo-ico">&#xe9cc;</i>
+		        <b>首页</b>
+	      	</li>
+	      	<li>
+		        <i class="yo-ico">&#xe60c;</i>
+		        <b>值得读</b>
+	      	</li>
+	      	<li>
+		        <i class="yo-ico">&#xe610;</i>
+		        <b>社区</b>
+	      	</li>
+	      	<li>
+		        <i class="yo-ico">&#xe650;</i>
+		        <b>我的</b>
+	      	</li>
+		</ul>
+	</footer>
+</div>
